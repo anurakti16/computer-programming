@@ -1,8 +1,14 @@
 #include<stdio.h>
-void main()
+void add()
 {
-    char x[20];
-    printf("enter the name\n");
-    scanf("%s",&x);
-    printf(" name is %s",x);
+    int a,b,sum=0;
+    printf("enter two no");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("\n sum is =%d",sum);
+
+}
+int main()
+{
+    add();
 }
